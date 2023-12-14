@@ -1,3 +1,11 @@
+// Determine how long it takes for a population to reach a particular size.
+// Say we have a population of n llamas. Each year, n / 3 new llamas are born, and n / 4 llamas pass away.
+// For example, if we were to start with n = 1200 llamas, then in the first year, 1200 / 3 = 400 new llamas would be born and 1200 / 4 = 300 llamas would pass away. At the end of that year, we would have 1200 + 400 - 300 = 1300 llamas.
+
+// input: 1. start size of population
+//        2. end size of population
+// output: the number of years population can reach end size from start size
+
 #include <cs50.h>
 #include <stdio.h>
 
